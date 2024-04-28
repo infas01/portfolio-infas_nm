@@ -123,7 +123,7 @@ export const projectsData = [
 
 export const AchievementData = [
   {
-    title: 'INSURGEX Coding Competition ',
+    title: 'INSURGEX 1.0 Coding Competition ',
     description:
       'This is a coding competition organized by the Faculty of Computer Science,\
      University of Ruhuna. Over 100 teams participated and we achieved the 17th place among them.',
@@ -132,7 +132,7 @@ export const AchievementData = [
     Url: '',
   },
   {
-    title: 'ACES Coding Competition ',
+    title: 'ACES Coders v.10.0 Coding Competition ',
     description:
       'This is a coding competition organized by the Faculty of Computer Engineering,\
      University of Peradeniya. Over 200 teams participated and we achieved the 36th place among them.',
