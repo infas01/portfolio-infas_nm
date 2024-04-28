@@ -9,18 +9,19 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
-
+import 'react-vertical-timeline-component/style.min.css';
 export default function Experience() {
   const { ref } = useSectionInView('Experience');
   const { theme } = useTheme();
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-10 sm:mb-10">
-      <SectionHeading>Experience</SectionHeading>
+      <SectionHeading>Experiences</SectionHeading>
 
       <VerticalTimeline lineColor="yellow">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              visible={true}
               contentStyle={{
                 background:
                   theme === 'light'

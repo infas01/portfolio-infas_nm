@@ -99,6 +99,7 @@ const Certificates = () => {
             <Image
               src={images[currentIndex]}
               alt={`Certificate ${currentIndex + 1}`}
+              height={400}
             />
           </motion.div>
         </AnimatePresence>

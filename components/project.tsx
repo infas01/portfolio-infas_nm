@@ -37,7 +37,7 @@ export default function Project({
           <div className="md:flex">
             <div className=" lg:w-[50vw] lg:h-[50vh]">
               <Image
-                className="h-48 lg:w-[50vw] w-full object-cover md:h-full md:w-full"
+                className="h-48 lg:w-[50vw] w-full object-cover lg:object-fill md:h-full md:w-full"
                 src={imageUrl}
                 alt="Project"
               />

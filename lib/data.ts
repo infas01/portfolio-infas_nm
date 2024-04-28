@@ -7,6 +7,8 @@ import usham from '@/public/usham.png';
 import healthy from '@/public/healthy.png';
 import portfolio from '@/public/portfolio.png';
 import srs from '@/public/srs.png';
+import insurgex from '@/public/insurgex.png';
+import aces from '@/public/aces.jpeg';
 
 export const links = [
   {
@@ -97,7 +99,7 @@ export const projectsData = [
         for creating, reading, updating and deleting product listings.',
     tags: ['React JS', 'Node JS', 'Tailwind CSS', 'Mongo DB', 'Express JS'],
     imageUrl: usham,
-    Url: 'https://github.com/Arshad-Codes/Sports-Project.git',
+    Url: 'https://github.com/infas01/Online_Furniture_and_Appliances_Purchasing_System.git',
   },
   {
     title: 'Portfolio Website',
@@ -105,8 +107,8 @@ export const projectsData = [
       'explore my portfolio showcasing my work as a computer engineering undergraduate.\
        It emphasizes my dedication to crafting impactful digital experiences.',
     tags: ['Next.js', 'React', 'Framer motion', 'TypeScript', 'Deploy'],
-    imageUrl: '',
-    Url: '',
+    imageUrl: portfolio,
+    Url: 'https://infas-nm.netlify.app',
   },
   {
     title: 'Student Registration System',
@@ -121,17 +123,21 @@ export const projectsData = [
 
 export const AchievementData = [
   {
-    title: 'Achievement 1',
-    description: 'coding competition',
-    tags: ['Algorithm', 'Coding'],
-    imageUrl: '',
+    title: 'INSURGEX Coding Competition ',
+    description:
+      'This is a coding competition organized by the Faculty of Computer Science,\
+     University of Ruhuna. Over 100 teams participated and we achieved the 17th place among them.',
+    tags: ['Algorithm', 'Data Structures', 'Coding'],
+    imageUrl: insurgex,
     Url: '',
   },
   {
-    title: 'Achievement 2',
-    description: 'coding competition',
-    tags: ['Algorithm', 'Coding'],
-    imageUrl: '',
+    title: 'ACES Coding Competition ',
+    description:
+      'This is a coding competition organized by the Faculty of Computer Engineering,\
+     University of Peradeniya. Over 200 teams participated and we achieved the 36th place among them.',
+    tags: ['Algorithm', 'Data Structures', 'Coding'],
+    imageUrl: aces,
     Url: '',
   },
 ] as const;
