@@ -29,7 +29,9 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>
+        Contact me
+        </SectionHeading>
 
       <p className="text-gray-700 -mt-6 text-white/80">
         Please contact me directly at{' '}
@@ -67,7 +69,9 @@ export default function Contact() {
           required
           maxLength={5000}
         />
+
         <SubmitBtn />
+        
       </form>
     </motion.section>
   );

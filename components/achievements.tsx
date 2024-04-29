@@ -11,7 +11,9 @@ export default function Achivements() {
 
   return (
     <section ref={ref} className="scroll-mt-28 mb-10" id="achievements">
-      <SectionHeading>Achievements & Participations</SectionHeading>
+      <SectionHeading>
+        Achievements & Participations
+        </SectionHeading>
       <div className="">
         {AchievementData.map((achievement, index) => (
           <React.Fragment key={index}>
