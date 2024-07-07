@@ -145,7 +145,6 @@ export const AchievementData = [
 export const skillsData = [
   'JavaScript',
   'React js',
-  'Next.js',
   'Node.js',
   'MongoDB',
   'Express js',
@@ -157,8 +156,13 @@ export const skillsData = [
   'Java',
   'Git',
   'Tailwind CSS',
-  'TypeScript',
+  'SciKit-Learn',
+  'NumPy',
   'Postman',
   'Jira',
   'Agile',
+  'React Redux',
+  'Redux Toolkit',
+  'Next.js',
+  'TypeScript',
 ] as const;
