@@ -156,6 +156,8 @@ export const skillsData = [
   'Java',
   'Git',
   'Tailwind CSS',
+  'Spring Boot',
+  'ASP.NET Core',
   'SciKit-Learn',
   'NumPy',
   'Postman',
