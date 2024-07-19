@@ -91,7 +91,7 @@ export const projectsData = [
     Url: 'https://github.com/infas01/healthy-medical_app/tree/infas_nm',
   },
   {
-    title: 'USHAM',
+    title: 'USHAM E-Commerce',
     description:
       'This is a 4th semester project, during which I tackled all the challenges\
       involved in creating a e-commerce website. An individual project built using the MERN stack,\

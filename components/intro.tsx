@@ -69,7 +69,8 @@ export default function Intro() {
         <span className="font-bold">
           Strong Fundamental in Software Engineering.
         </span>{' '}
-        I enjoy building <span className="italic">Websites & Applications</span>
+        I enjoy building{' '}
+        <span className="italic">Websites & Mobile Applications</span>
       </motion.h1>
 
       <motion.div
